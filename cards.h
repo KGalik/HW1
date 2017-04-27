@@ -67,6 +67,8 @@ class Hand {
 
    private:
       // You decide what fields you'll need...
+	   vector<Card> cards;
+	   int total;
 };
 
 
@@ -80,7 +82,7 @@ class Player {
 
    private:
       int money;
-      // You decide what extra fields (if any) you'll need...
+	  Hand playerhand;
 };
 
 #endif
