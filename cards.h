@@ -67,6 +67,8 @@ class Hand {
 
    private:
       // You decide what fields you'll need...
+	   vector<Card> cards;
+	   int total;
 };
 
 
