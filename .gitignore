@@ -1,0 +1,14 @@
+*.suo
+*.obj
+*.exe
+*.tlog
+*.pdb
+*.sln
+hw1.cpp
+*.ilk
+*.idb
+*.filters
+*.vcxproj
+*.opendb
+PIC10C-HW1.sdf
+*.log
