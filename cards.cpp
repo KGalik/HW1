@@ -148,3 +148,4 @@ Hand::Hand(): total() {}
    ************************************************* */
 // Implemente the member functions of the Player class here.
 
+Player::Player(int m): money(m) {}
