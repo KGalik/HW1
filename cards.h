@@ -62,7 +62,7 @@ class Hand {
    public:
       // A vector of Cards
       Hand();
-
+	  void AddCard(Card);
       // You decide what functions you'll need...
 
    private:

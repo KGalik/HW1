@@ -142,6 +142,10 @@ bool Card::operator < (Card card2) const {
 
 Hand::Hand(): total() {}
 
+void Hand::AddCard(Card C) {
+	cards.push_back(C);
+	total += C.get_rank();
+}
 
 /* *************************************************
    Player class
